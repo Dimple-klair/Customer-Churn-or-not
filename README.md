@@ -1,4 +1,4 @@
-# Project-2 (Customer-Churn-or-not)
+# Customer Churn / Binary classification model 
 
 Business Objective: Customer churn is a big problem for telecommunications companies. Indeed, their annual churn rates are usually higher than 10%. For that reason, they develop strategies to keep as many clients as possible. This is a classification project since the variable to be predicted is binary (churn or loyal customer). The goal here is to model churn probability, conditioned on the customer features.
 
@@ -11,5 +11,7 @@ OUR CLASSES ARE IMBALANCED .HENCE WE USED (STRATIFY =Y) WHILE TRAIN_TEST SPLIT
 (X,Y,random state=45,test_size=0.30,stratify=y/or target var.name)
 
 FOR IMBALANCED DATASET
-RandomForest is far better than over-sampling or smote technology.
+we use RandomOverSampler
+
+Use pickle to save model and Streamlit to deploy it
 
